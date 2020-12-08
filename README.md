@@ -1,6 +1,6 @@
-# mealsApp
+# MealsApp
 
-A new Flutter project.
+An application developed using Flutter to see meals recipes.
 
 ## Getting Started
 
