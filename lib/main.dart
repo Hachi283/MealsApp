@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'DeliMeals',
       theme: ThemeData(
-        primarySwatch: Colors.amber,
+        primarySwatch: Colors.teal,
         accentColor: Colors.pink,
         canvasColor: Color.fromRGBO(255, 224, 229, 1),
         fontFamily: 'Raleway',
@@ -30,9 +30,12 @@ class MyApp extends StatelessWidget {
               ),
             ),
       ),
-      home: CategoryScreen(),
+      //home: CategoryScreen(),
+
+      initialRoute: '/',
       routes: {
-        '/category-meals': (ctx) => CategoryMealScreen(),
+        '/': (ctx) => CategoryScreen(),
+        CategoryMealScreen.routeName: (ctx) => CategoryMealScreen(),
       },
     );
   }
