@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import './category_meal_screen.dart';
+import '../screens/category_meal_screen.dart';
 
 //import 'package:mealsApp/category_meal_screen.dart';
 
